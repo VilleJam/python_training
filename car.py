@@ -41,7 +41,7 @@ try:
     else:
         raise Exception
 except ValueError:
-    print("Restart script and enter your speed only in digits!")
+    print("Restart script and enter your speed only indigits!")
     sys.exit("Error occured. \n Press F to pay respect. \n Restart script.")
 except Exception as e:
     print(f"An unexpected error occured: {e}")
